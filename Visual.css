@@ -1,0 +1,262 @@
+@media (max-width: 1600px) {
+  body, ul {
+    background-color: #5725ba;
+    color: white;
+    font-weight: 300;
+    line-height: 1.8;
+    padding: 0;
+    margin: 85px auto;
+  }
+
+  ::-webkit-scrollbar {
+    width: 15px;
+    background: #5725ba;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 10px;
+    border: 3px solid #5725ba;
+  }
+
+  #Logo {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 50%;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+
+  #h1 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+    margin: 0;
+  }
+
+  #Menu {
+    text-align: center;
+    list-style: none;
+    border: 3px inset white;
+    width: 30%;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  #Menu li {
+    display: inline-block;
+  }
+
+  #Menu li a {
+    color: white;
+    text-decoration: underline;
+    font-family: sans-serif;
+    font-size: 20px;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+  }
+
+  a:hover {
+    background: rgba(0, 0, 0, 0.05);
+  }
+
+  #Dica, #Conteudo {
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+  }
+
+  #Dica {
+    font-weight: 600;
+  }
+
+  #Conteudo {
+    font-weight: 300;
+  }
+
+  #Divisoria {
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    margin: 20px 0;
+  }
+
+  #Produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+  }
+
+  .produto {
+    width: 30%;
+    max-width: 350px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .produto img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+
+  .produto img:hover {
+    transform: scale(1.05);
+  }
+
+  .produto h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 15px;
+  }
+
+  .produto p {
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 10px;
+  }
+
+  .produto a {
+    display: block;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    color: #000;
+    text-decoration: none;
+  }
+
+  .produto a:hover {
+    background-color: white;
+    color: #5725ba;
+    transition: 0.3s ease;
+  }
+
+  #Rodapediv {
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    margin: 0;
+  }
+
+  #Rodape {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0;
+  }
+
+  @media (max-width: 480px) {
+  body, ul {
+    background-color: #5725ba;
+    color: white;
+    font-weight: 300;
+    line-height: 1.6;
+    padding: 10px;
+    margin: 20px auto;
+  }
+
+  #Logo {
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+    display: block;
+  }
+
+  #h1 {
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    margin: 10px 0 20px 0;
+  }
+
+  #Menu {
+    width: 100%;
+    border: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 0 20px 0;
+  }
+
+  #Menu li {
+    display: block;
+    margin: 0;
+  }
+
+  #Menu li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: block;
+    border-radius: 6px;
+    background-color: rgba(255 255 255 / 0.1);
+    transition: background-color 0.3s ease;
+  }
+
+  #Menu li a:hover,
+  #Menu li a:focus {
+    background-color: rgba(255 255 255 / 0.3);
+  }
+
+  #Dica, #Conteudo {
+    font-size: 16px;
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  #Divisoria {
+    height: 1px;
+    margin: 15px 0;
+  }
+
+  #Produtos {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .produto {
+    width: 100%;
+    max-width: none;
+    margin-bottom: 15px;
+  }
+
+  .produto img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .produto h3 {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .produto p {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+
+  .produto a {
+    padding: 10px;
+  }
+
+  #Rodape {
+    font-size: 12px;
+    padding: 15px 10px;
+  }
+}
+}
